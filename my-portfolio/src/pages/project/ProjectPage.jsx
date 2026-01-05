@@ -13,7 +13,7 @@ export function ProjectPage() {
 
         <div className="project-content">
           <h3 className="project-title">Chatbot Interface Application</h3>
-        </div>
+        
 
         <p className="project-description">
           A rule-based chatbot built with React, focused on message handling,
@@ -31,7 +31,7 @@ conditional logic, and clean interface flow.
           <a className="btn primary">Demo</a>
           <a className="btn secondary">GitHub</a>
         </div>
-        
+        </div>
 
       </div>
     </section>
