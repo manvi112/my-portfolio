@@ -1,26 +1,35 @@
 import './AboutPage.css';
+import avatar from '../../assets/avataaars.svg';
 
 export function AboutPage() {
   return(
     <>
-    <section className="hero">
-      <div className="hero-inner">
+     <section className="about">
+      <div className="about-container">
 
-        <div className="status">
-          <span className="status-text">Open to work</span>
+        <div className="about-content">
+          <h2 className="about-title">
+            About
+          </h2>
+
+          <p>
+            I'm a frontend-focused developer who enjoys building clean,
+            structured, and user-friendly web experiences. I care a lot about
+            layout, interaction flow, and writing maintainable code.
+          </p>
+
+          <p>
+            I mostly work with React and modern CSS, and I like turning designs
+            into responsive interfaces that actually feel good to use.
+          </p>
         </div>
 
-        <h1 className="hero-title">
-          Software<br />
-          Developer
-        </h1>
-
-        <p className="hero-description">
-          I work on web based projects,<br />experiment with AI and ML,<br /> and focus on building meaningful digital solutions while learning along the way.
-        </p>
-
+        <div className="about-avatar">
+          <img src={avatar} alt="Avatar Illustration">
+          </img>
+        </div>
       </div>
-    </section>
+     </section>
     </>
   );
 }
