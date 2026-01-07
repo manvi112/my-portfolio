@@ -1,0 +1,38 @@
+.experience-section {
+  padding: clamp(3rem, 6vw, 6rem);
+  margin-inline: auto;
+  color: #fff;
+  max-width: 1200px;
+}
+
+.experience-title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.experience-item {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.experience-content h3{
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.experience-meta{
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 10px;
+}
+
+

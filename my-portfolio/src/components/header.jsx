@@ -1,5 +1,4 @@
 import './header.css';
-import { Link } from "react-router-dom";
 
 export function NavBar() {
   return (
@@ -7,11 +6,12 @@ export function NavBar() {
     <header className="navLink">
       <nav>
         <ul>
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/projects">Projects</Link></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <Link className="contactNo" to="/contact"><button>Contact</button></Link>
+       <span className="nav-name">Manvi Patel</span>
     </header>
     </>
   );

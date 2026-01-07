@@ -4,7 +4,7 @@ import avatar from '../../assets/avataaars.svg';
 export function AboutPage() {
   return(
     <>
-     <section className="about">
+     <section className="about" id="about">
       <div className="about-container">
 
         <div className="about-content">
@@ -13,14 +13,12 @@ export function AboutPage() {
           </h2>
 
           <p>
-            I'm a frontend-focused developer who enjoys building clean,
-            structured, and user-friendly web experiences. I care a lot about
-            layout, interaction flow, and writing maintainable code.
+            I'm a final-year Computer Science student based in Ahmedabad, Gujarat.
+            I currently focus on front-end development, where I enjoy building clean, responsive, and interactive interfaces using modern web technologies. Along the way, I've also gained experience with full-stack development, working with React, Node.js, and SQL to understand how complete web applications come together.
           </p>
 
           <p>
-            I mostly work with React and modern CSS, and I like turning designs
-            into responsive interfaces that actually feel good to use.
+            Right now, I'm exploring different opportunities,learning through hands-on experience, and growing as a developer by creating things that feel both useful and thoughtful.
           </p>
         </div>
 

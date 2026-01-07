@@ -16,7 +16,7 @@ export function HeroPage() {
         </h1>
 
         <p className="hero-description">
-          I work on web based projects,<br />experiment with AI and ML,<br /> and focus on building meaningful digital solutions while learning along the way.
+          I build web-based projects,<br />explore AI and machine learning,<br />and enjoy turning ideas into meaningful digital solutions while learning along the way.
         </p>
 
       </div>

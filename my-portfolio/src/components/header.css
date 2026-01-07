@@ -10,7 +10,7 @@
 .navLink {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  padding: clamp(1rem, 4vw, 3rem);
   /* background-color: #0f0f0f; */
   display: flex;
   justify-content: space-between;
@@ -25,7 +25,7 @@
   padding: 0;
 }
 
-li, a, button {
+li, a {
   font-family: 'Satoshi';
   font-weight: 600;
   /* font-size: 16px; */
@@ -44,28 +44,18 @@ li, a, button {
   padding: 0px 15px
 }
 
-.navLink li a {
-  transition: all 0.3s ease 0s;
-}
 
 .navLink li a:hover {
-  text-decoration: underline;
-  text-decoration-color: #0f0f0f;
-  text-underline-offset: 3px;
+  color: #6d8baf;
+}
+.nav-name {
+  padding: 5px;
+  font-weight: 600;
+  font-size: clamp(18px, 1vw, 27px);
 }
 
-button {
-  padding: 6px 22px;
-  background-color: #0f0f0f;
-  color: #f5f5f5;
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-}
-
-button:hover {
-  background-color: #80afc3;
-  color: rgba(255, 255, 255, 255);
-  box-shadow: 0 6px 10px 0 rgba(9, 9, 9, 0.2);
+.navLink {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }

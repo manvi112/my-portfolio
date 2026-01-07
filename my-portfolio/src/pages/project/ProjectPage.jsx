@@ -3,7 +3,7 @@ import { projects } from "../../data/ProjectsData";
 
 export function ProjectPage() {
   return (
-    <section className="projects">
+    <section className="projects" id="project">
       {projects.map((project) => (
         <div className="project-card" key={project.id}>
           
@@ -25,7 +25,7 @@ export function ProjectPage() {
             </div>
 
             <div className="project-actions">
-              <a className="btn primary" href={project.demo}>Demo</a>
+              {/* <a className="btn primary" href={project.demo}>Demo</a> */}
               <a className="btn secondary" href={project.github}>GitHub</a>
             </div>
           </div>

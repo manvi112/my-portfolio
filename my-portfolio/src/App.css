@@ -4,6 +4,12 @@
 body {
   font-family: "Inter", sans-serif;
   background-color: rgba(11, 11, 11, 1);
-  color:rgb(226, 226, 226)
+  color:rgb(226, 226, 226);
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
