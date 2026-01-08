@@ -80,7 +80,7 @@ Let's build something together!" required />
 
           <div className="at-info">
             <div className="info-card">
-              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=patelmanvi1101@gmail.com">Email</a>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=patelmanvi1101@gmail.com" target="_blank" rel="noreferrer">Email</a>
             </div>
 
             <div className="info-card">
