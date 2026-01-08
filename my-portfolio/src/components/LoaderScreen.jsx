@@ -24,7 +24,7 @@ export function LoaderScreen({ onComplete }) {
         });
       }
     });
-  }, []);
+  }, [onComplete]);
 
   return (
     <div className="loader">
