@@ -8,6 +8,7 @@ import { ContactComp } from './components/contact/ContactComp';
 import { SmoothScroll } from './components/SmoothScroll';
 import { useState } from "react";
 import { LoaderScreen } from './components/LoaderScreen';
+
 import './App.css'
 
 function App() {

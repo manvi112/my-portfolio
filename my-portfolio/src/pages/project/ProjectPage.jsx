@@ -7,8 +7,8 @@ export function ProjectPage() {
   return (
     <section className="projects" id="project">
       {projects.map((project) => (
-        <HoverCard>
-        <div className="project-card"  key={project.id}>
+        <HoverCard key={project.id}>
+        <div className="project-card" >
           
           <div className="project-media">
               <img src={project.image} alt={project.title} />

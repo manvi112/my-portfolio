@@ -124,5 +124,5 @@ button:hover {
 .contact {
   min-height: 100vh;
   scroll-snap-align: start;
-  scroll-margin-top: 90px; /* navbar height */
+  scroll-margin-top: 90px;
 }
