@@ -11,7 +11,7 @@ export const projects = [
     image: chatbotImg,
     stack: ["React", "JSX", "HTML/CSS"],
     demo: "#",
-    github: "#",
+    github: "https://github.com/manvi112/Chatbot-Interface-Application",
   },
 
   {
@@ -22,7 +22,7 @@ export const projects = [
     image: ecommerceImg,
     stack: ["React", "JSX", "HTML/CSS"],
     demo: "#",
-    github: "#",
+    github: "https://github.com/manvi112/Ecommerce-Web-Application",
   },
 
   {
@@ -33,6 +33,6 @@ export const projects = [
     image: invoiceImg,
     stack: ["React", "JSX", "HTML/CSS"],
     demo: "#",
-    github: "#",
+    github: "https://github.com/manvi112/Invoice-Generator",
   }
 ];

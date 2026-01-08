@@ -1,6 +1,11 @@
 import './HeroPage.css';
+import { RevealText } from "../../components/RevealText";
+
+
 
 export function HeroPage() {
+
+
   return(
     <>
     <section className="hero">
@@ -10,9 +15,10 @@ export function HeroPage() {
           <span className="status-text">Open to work</span>
         </div>
 
+        
         <h1 className="hero-title">
-          FullStack<br />
-          Developer
+          <RevealText>Fullstack</RevealText><br />
+          <RevealText>Developer</RevealText>
         </h1>
 
         <p className="hero-description">

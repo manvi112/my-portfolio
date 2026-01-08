@@ -1,5 +1,7 @@
 import './AboutPage.css';
 import avatar from '../../assets/avataaars.svg';
+import { HoverCard } from "../../components/HoverCard";
+
 
 export function AboutPage() {
   return(
@@ -23,8 +25,11 @@ export function AboutPage() {
         </div>
 
         <div className="about-avatar">
-          <img src={avatar} alt="Avatar Illustration">
+          <HoverCard>
+          <img src={avatar}
+          alt="Avatar Illustration">
           </img>
+          </HoverCard>
         </div>
       </div>
      </section>

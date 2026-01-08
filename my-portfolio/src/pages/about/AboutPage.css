@@ -49,3 +49,10 @@
     justify-content: flex-start;
   }
 }
+
+
+.about {
+  min-height: 100vh;
+  scroll-snap-align: start;
+  scroll-margin-top: 90px;
+}
